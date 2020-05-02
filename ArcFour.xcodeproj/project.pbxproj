@@ -11,6 +11,7 @@
 		1717E253245D673C005F314C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1717E252245D673C005F314C /* ViewController.swift */; };
 		1717E255245D673D005F314C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1717E254245D673D005F314C /* Assets.xcassets */; };
 		1717E258245D673D005F314C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1717E256245D673D005F314C /* Main.storyboard */; };
+		1717E261245D8697005F314C /* RC4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1717E260245D8697005F314C /* RC4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		1717E257245D673D005F314C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1717E259245D673D005F314C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1717E25A245D673D005F314C /* ArcFour.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ArcFour.entitlements; sourceTree = "<group>"; };
+		1717E260245D8697005F314C /* RC4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RC4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				1717E256245D673D005F314C /* Main.storyboard */,
 				1717E259245D673D005F314C /* Info.plist */,
 				1717E25A245D673D005F314C /* ArcFour.entitlements */,
+				1717E260245D8697005F314C /* RC4.swift */,
 			);
 			path = ArcFour;
 			sourceTree = "<group>";
@@ -133,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1717E261245D8697005F314C /* RC4.swift in Sources */,
 				1717E253245D673C005F314C /* ViewController.swift in Sources */,
 				1717E251245D673C005F314C /* AppDelegate.swift in Sources */,
 			);
